@@ -1,0 +1,25 @@
+.spot {
+  border: 1px solid rgb(2, 114, 148);
+  width: 2.7rem;
+  height: 2.7rem;
+  border-radius: 50%;
+  margin: 0.3rem;
+}
+.spot.red {
+  background-color: rgb(218, 56, 56);
+}
+.spot.green {
+  background-color: rgb(105, 192, 105);
+}
+.spot.white {
+  background-color: white;
+}
+
+@media (min-width: 950px) {
+  .spot {
+    width: 4rem;
+    height: 4rem;
+    margin: 0.5rem;
+
+  }
+}
